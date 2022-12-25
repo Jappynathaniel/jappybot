@@ -78,7 +78,7 @@ const handleSubmit = async (e) => {
 
 // fetch data from the server 
 
-const response = await('http://localhost:5000', {
+const response = await('https://jappybot.onrender.com/', {
 
 method : 'POST', 
 headers : { 
